@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Veterinaria Patitas Felices</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+      background: #f8f9fa;
+    }
+
+
+    .navbar {
+      background: #0077b6;
+    }
+    .navbar .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+    .navbar .nav-link:hover {
+      color: #9ad0ec !important;
+    }
+
+    
+    header {
+      background: #9ad0ec;
+      padding: 60px 0;
+      text-align: center;
+      color: white;
+    }
+
+    header img {
+      max-width: 300px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+
+    .custom-card {
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+      transition: 0.2s;
+    }
+
+    .custom-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#inicio">Patitas Felices</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#especialistas">Especialistas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#clientes">Clientes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#especialidades">Especialidades</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reserva">Reservar Cita</a></li>
+        <li class="nav-item"><a class="nav-link" href="#redes">Redes</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<header id="inicio">
+  <div class="container">
+    <h1 class="fw-bold">Clínica Veterinaria Patitas Felices</h1>
+    <p class="lead">Cuidamos a tus mascotas como si fueran nuestras.</p>
+
+    <a href="#reserva" class="btn btn-light fw-bold">Reservar cita</a>
+
+    <img src="image/imagen-header.jpg" alt="Veterinaria" class="img-fluid shadow">
+  </div>
+</header>
+
+
+<section id="video" class="py-5">
+  <div class="container text-center">
+    <video controls class="img-fluid rounded shadow" style="max-width:600px;">
+      <source src="video/video.mp4.mp4" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+
+<section id="servicios" class="py-5">
+  <div class="container">
+    <h2 class="text-primary fw-bold mb-4">Servicios</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="custom-card p-3 bg-white">
+          <h4>Cuidados Estéticos</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="image/servicio1.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="custom-card p-3 bg-white">
+          <h4>Emergencia 24 horas</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="image/servicio2.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="nosotros" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-primary fw-bold mb-3">Nosotros</h2>
+    <p>
+      En <strong>Clínica Veterinaria Patitas Felices</strong> trabajamos con pasión y profesionalismo
+      para cuidar la salud y bienestar de tus mascotas. Nuestro equipo está preparado con los mejores
+      tratamientos y mucho cariño.
+    </p>
+  </div>
+</section>
+
+
+<section id="imagenes" class="py-5">
+  <div class="container text-center">
+    <h2 class="text-primary fw-bold mb-4">Galería</h2>
+
+    <div class="row g-3">
+      <div class="col-6 col-md-4"><img src="image/img1.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-6 col-md-4"><img src="image/img2.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-6 col-md-4"><img src="imagen/img3.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-6 col-md-4"><img src="imagen/img4.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-6 col-md-4"><img src="imagen/img5.jpg" class="img-fluid rounded shadow"></div>
+      <div class="col-6 col-md-4"><img src="imagen/img6.jpg" class="img-fluid rounded shadow"></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="programa" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="text-primary fw-bold">Programa tu cita ahora</h2>
+    <a href="#reserva" class="btn btn-primary mt-3">Ir a Reservar</a>
+    <br><br>
+    <img src="programa.jpg" class="img-fluid rounded shadow" style="max-width:300px;">
+  </div>
+</section>
+
+
+<section id="reserva" class="py-5">
+  <div class="container">
+    <h2 class="text-primary fw-bold mb-3">Reservar Cita</h2>
+
+    <form class="row g-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Nombre completo" required>
+        <textarea class="form-control mt-3" rows="4" placeholder="Motivo de la cita" required></textarea>
+      </div>
+
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Correo" required>
+        <input type="tel" class="form-control mt-3" placeholder="Número de contacto" required>
+        <input type="date" class="form-control mt-3" required>
+      </div>
+
+      <div class="col-12">
+        <button class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section id="especialistas" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="text-primary fw-bold mb-4">Nuestros Especialistas</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="custom-card p-3 bg-white">
+          <img src="image/doc1.jpg" class="img-fluid rounded mb-3">
+          <h4>Dr. Juan Alvarado</h4>
+          <p>Especialista en medicina interna y diagnóstico.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="custom-card p-3 bg-white">
+          <img src="image/doc2.jpg" class="img-fluid rounded mb-3">
+          <h4>Dra. Ana Lucia</h4>
+          <p>Especialista en cirugía y emergencias.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="clientes" class="py-5">
+  <div class="container text-center">
+    <h2 class="text-primary fw-bold mb-4">Nuestros Clientes</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="custom-card p-3 bg-white">
+          <img src="image/cliente1.jpg" class="img-fluid rounded mb-3">
+          <p>"Excelente atención, mi perro está mucho mejor y con más energía."</p>
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="custom-card p-3 bg-white">
+          <img src="image/cliente2.jpg" class="img-fluid rounded mb-3">
+          <p>"Muy buenos profesionales, los recomiendo."</p>
+          <p>⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="especialidades" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="text-primary fw-bold mb-4">Especialidades</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="custom-card p-3 bg-white">
+          <h4>Vacunación</h4>
+          <img src="image/esp1.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="custom-card p-3 bg-white">
+          <h4>Cirugía</h4>
+          <img src="image/esp2.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="custom-card p-3 bg-white">
+          <h4>Higiene y Saneamiento</h4>
+          <img src="image/esp3.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="redes" class="py-5 text-center">
+  <div class="container">
+    <h2 class="text-primary fw-bold mb-4">Síguenos en nuestras redes</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="custom-card p-3 bg-white">
+          <h4>Facebook</h4>
+          <img src="image/fb.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="custom-card p-3 bg-white">
+          <h4>Instagram</h4>
+          <img src="image/ig.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="custom-card p-3 bg-white">
+          <h4>TikTok</h4>
+          <img src="image/tk.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="custom-card p-3 bg-white">
+          <h4>WhatsApp</h4>
+          <img src="image/wa.jpg" class="img-fluid rounded">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p>987-654-321 | ✉️ clinicapatitas@gmail.com</p>
+  <p>Inicio | Servicios | Contacto</p>
+  <p>&copy; 2025 Clínica Veterinaria Patitas Felices</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
